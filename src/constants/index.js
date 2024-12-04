@@ -160,7 +160,7 @@ const experiences = [
     title: "Blockchain Meets Simplicity",
     company_name: "Blockchain Power",
     icon: api,
-    iconBg: "#f0f0f0",
+    iconBg: "black",
     date: "",
     points: [
       "CROSSCHYZE combines the power of blockchain technology with intuitive integration tools. From credit cards to wallets and bank transfers, our platform makes it easy for businesses to centralize their payment solutions."
@@ -171,7 +171,7 @@ const experiences = [
     title: "Say Goodbye to Fragmented Payment Systems.",
     company_name: "All-in-one orchestration platform",
     icon: integration,
-    iconBg: "#FFFF00",
+    iconBg: "black",
     date: "",
     points: [
       " CROSSCHYZE provides an all-in-one orchestration platform tailored for a multi-method, multi-currency world, helping you stay ahead in an ever-changing digital economy.",
@@ -182,7 +182,7 @@ const experiences = [
     title: "Smarter Payments, Made Easy",
     company_name: "Eliminate Inefficiencies",
     icon: clock,
-    iconBg: "#E8FF3C",
+    iconBg: "black",
     date: "",
     points: [
       "From blockchain innovations to traditional banking, CROSSCHYZE simplifies every step of your payment journey. Reduce costs, eliminate inefficiencies, and focus on growing your business.",
@@ -193,7 +193,7 @@ const experiences = [
     title: "Flexible APIs",
     company_name: "Evolves as Your Business",
     icon: stat,
-    iconBg: "#EF4B5A",
+    iconBg: "black",
     date: "",
     points: [
       "Whether you're a startup or an established enterprise, CROSSCHYZE adapts to your needs. Flexible APIs and custom solutions ensure your payment system evolves as your business grows.",
