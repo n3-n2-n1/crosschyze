@@ -18,6 +18,7 @@ const ExperienceCard = ({ experience }) => {
       contentStyle={{
         background: "black",
         color: "#fff",
+        className:"dark:bg-gray-800 dark:text-gray-100"
       }}
       contentArrowStyle={{ border: "7px solid  white " }}
       date={experience.date}
@@ -36,7 +37,7 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className='dark:text-white text-[24px] font-bold'>{experience.title}</h3>
         <p
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
@@ -62,11 +63,11 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
+      <motion.div variants={textVariant()} id="contact">
+        <p className={`${styles.sectionSubText} text-center`} >
           Redifine transactions with us...
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
+        <h2 className={`text-black dark:text-white text-6xl font-extrabold my-4 text-center`}>
           Our Focus
         </h2>
       </motion.div>
